@@ -1,2 +1,2 @@
 # Web-dev-pro
-Acode repo for FSD
+A code repo for FSD
