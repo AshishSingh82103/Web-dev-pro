@@ -41,6 +41,8 @@ citiesVisited.push("Berlin");
 let teaOrders = ["chai", "iced tea", "matcha", "earl grey"];
 const lastOrder = teaOrders.pop();
 
+
+
 /* 
 6. You have an array named `popularTeas` containing `"green tea"`, `"oolong tea"`, and `"chai"`. 
    Create a soft copy of this array named `softCopyTeas`.
