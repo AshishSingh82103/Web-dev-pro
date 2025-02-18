@@ -83,3 +83,4 @@ for (let i = 0; i < cities.length; i++) {
 }
 
 console.log("City List: ", cityList);
+
