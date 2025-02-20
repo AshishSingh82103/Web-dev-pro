@@ -61,10 +61,10 @@ function createTeaMaker(name) {
     let socre =  100;
     return function (teaType) {
         return `Making ${teaType} ${name} ${socre}`
-
     }
 }
-
 let teaMaker = createTeaMaker("ashish");
 console.log(teaMaker("green tea"));
+
+
 
