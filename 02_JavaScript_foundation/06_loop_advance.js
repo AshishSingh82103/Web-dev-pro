@@ -117,11 +117,34 @@ console.log(largecitites);
 /* 7. Write a` forEach` loop that iterates through the array ["earl grey", "green tea", "chai", "oolang tea"].
 stop the loop when `"chai"` is found, and store all pervious tea types in an array named `avilableTeas`.
 */
+let teas2 = ["earl grey", "green tea", "chai", "oolang tea"]
+let avilableTeas = [];
+
+teas2.forEach(element => {
+
+    if(element === "chai") {
+        return;
+    }
+   avilableTeas.push(element);
+
+});
+console.log(avilableTeas);
+
 
 
 /* 8. Write a `forEach` loop that iterates through the array ["Berlin", "Tokyo", "Sydney", "Paris"].
 Skip   `Sydney` and store the other cities in new array named `traveledCities`.
 */
+
+let cities2 = ["Berlin", "Tokyo", "Sydney", "Paris"];
+let traveledCities = [];
+cities2.forEach(element =>{
+    if( element === "Sydney") {
+        return;
+    }
+    traveledCities.push(element)
+})
+console.log(traveledCities);
 
 
 
